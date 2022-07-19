@@ -1,10 +1,76 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 :root{
     --poppins:'Poppins', sans-serif;
 }
-h1{
+/*----------- 
+ Start Top Banner 
+-------------*/
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.top-banner{
+    width: 1321px;
+    height: 646px;
+    background-color: rgb(32, 30, 30);
+    border-radius: 30px;
+}
+.banner-title{
+    width: 531px;
+    height: 424px;
+    position: relative;
+    top: 80px;
+    left: 106px;
+    color: #FFFFFF;
     font-family: var(--poppins);
 }
+.banner-title h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.banner-title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-title button{
+    width: 187px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+.btn-main{
+    position: relative;
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.6s;
+
+}
+.btn:hover{
+   color: aqua;
+}
+.angle-right{
+    position: relative;
+    font-size: 16px;
+    left: 10px;
+}
+.banner-image img{
+    width: 561px;
+    height: 613px;
+    top: -390px;
+    left: 550px;
+    position: relative;
+}
+/*-------------- 
+End Top Banner
+--------------- */
+
